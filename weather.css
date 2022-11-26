@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app-wrapper{
+    /* border: 1px solid green; */
+    width: 700px;
+    margin: 20px auto;
+    padding: 50px 50px 25px 50px;
+    text-align: center;
+    background-color: #0e0c19;
+    border-radius: 10px;
+    box-shadow: grey 5px 5px;
+}
+
+.app-name{
+    /* border: 1px solid brown; */
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.city-info-wrapper{
+    /* border: 1px solid yellow; */
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+}
+
+.city-name{
+    /* border: 1px solid brown; */
+    padding: 8px;
+}
+
+.city-weather{
+    /* border: 1px solid orange; */
+    padding: 8px;
+}
+
+.city-temp{
+    /* border: 1px solid red; */
+    padding: 8px;
+}
+
+.weather-details-wrapper{
+    /* border: 1px solid blue; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: mediumturquoise;
+    color: darkblue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.weather-detail{
+    /* border: 1px solid magenta; */
+    padding: 5px;
+}
+
+.location-btn{
+    /* border: 1px solid coral; */
+    margin: 15px 0px 10px 0px;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: navy;
+    color: aliceblue;
+    transition: font-size 0.2s;
+}
+
+.location-btn:hover{
+    font-size: 15px;
+}
+
+.input-wrapper{
+    /* border: 1px solid cornflowerblue; */
+    display: none;
+    background-color: #A6C2DF;
+    border-radius: 10px;
+    
+}
+
+.input-header{
+    /* border: 1px solid chocolate; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-location{
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-box{
+    /* border: 1px solid cornflowerblue; */
+    font-size: 12px;
+    padding: 5px;
+}
+
+.city-label{
+    /* border: 1px solid orchid; */
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.city-input{
+    /* border: 1px solid maroon; */
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.state-label{
+    /* border: 1px solid brown; */
+    margin-right: 10px;
+}
+
+.state-input{
+    /* border: 1px solid crimson; */
+}
+
+.buttons-wrapper{
+    /* border: 1px solid cadetblue; */
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.close-btn{
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: navy;
+    color: aliceblue;
+}
+
+.save-btn{
+    background-color: navy;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 7px;
+}

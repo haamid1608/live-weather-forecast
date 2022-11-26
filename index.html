@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>WeatherInfo</title>
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="app-name">WEATHER FORECAST &#9925;</div>
+        <div class="city-info-wrapper">
+            <div class="city-name"></div>
+            <div class="city-weather"></div>
+            <div class="city-temp"></div>
+        </div>
+        <div class="weather-details-wrapper">
+            <div class="weather-detail humidity"></div>
+            <div class="weather-detail visibility"></div>
+            <div class="weather-detail feels-like"></div>
+            <div class="weather-detail wind-speed"></div>
+        </div>
+        <button type="button" class="location-btn">New Location &#127757;</button>
+        <div class="input-wrapper">
+            <div class="input-header">NEW LOCATION &#127757;</div>
+            <div class="input-location">
+                <div class="input-box">
+                    <label for="city" class="city-label">Please enter City</label>
+                    <input type="text" name="city" class="city-input" placeholder="Type your City..." autocomplete="on">
+                </div>
+            </div>
+            <div class="buttons-wrapper">
+                <button class="close-btn" type="submit">Close</button>
+                <button class="save-btn" type="submit">Save changes</btn>
+            </div>
+        </div>
+    </div>
+    <script src="weatherInfo.js"></script>
+</body>
+</html>
